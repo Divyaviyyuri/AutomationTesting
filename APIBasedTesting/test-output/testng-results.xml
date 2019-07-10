@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11836" started-at="2019-07-10T10:59:22Z" finished-at="2019-07-10T10:59:34Z">
+    <groups>
+    </groups>
+    <test name="Test01" duration-ms="9931" started-at="2019-07-10T10:59:22Z" finished-at="2019-07-10T10:59:32Z">
+      <class name="Test.TC001_Get_ListOfAllBreeds">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TC001_Get_ListOfAllBreeds@66a3ffec]" name="setup" is-config="true" duration-ms="954" started-at="2019-07-10T10:59:22Z" finished-at="2019-07-10T10:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getBreedList()[pri:0, instance:Test.TC001_Get_ListOfAllBreeds@66a3ffec]" name="getBreedList" is-config="true" duration-ms="8871" started-at="2019-07-10T10:59:23Z" finished-at="2019-07-10T10:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBreedList -->
+        <test-method status="PASS" signature="CheckResposeBody()[pri:0, instance:Test.TC001_Get_ListOfAllBreeds@66a3ffec]" name="CheckResposeBody" duration-ms="49" started-at="2019-07-10T10:59:32Z" finished-at="2019-07-10T10:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResposeBody -->
+      </class> <!-- Test.TC001_Get_ListOfAllBreeds -->
+    </test> <!-- Test01 -->
+    <test name="Test02" duration-ms="1822" started-at="2019-07-10T10:59:32Z" finished-at="2019-07-10T10:59:34Z">
+      <class name="Test.TC002_Validation_PresenceOfBreedReteriver">
+        <test-method status="PASS" signature="ValidatingRetriever()[pri:0, instance:Test.TC002_Validation_PresenceOfBreedReteriver@14bf9759]" name="ValidatingRetriever" is-config="true" duration-ms="1787" started-at="2019-07-10T10:59:32Z" finished-at="2019-07-10T10:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingRetriever -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TC002_Validation_PresenceOfBreedReteriver@14bf9759]" name="setup" is-config="true" duration-ms="0" started-at="2019-07-10T10:59:32Z" finished-at="2019-07-10T10:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckResposeBodyVal()[pri:0, instance:Test.TC002_Validation_PresenceOfBreedReteriver@14bf9759]" name="CheckResposeBodyVal" duration-ms="18" started-at="2019-07-10T10:59:34Z" finished-at="2019-07-10T10:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResposeBodyVal -->
+      </class> <!-- Test.TC002_Validation_PresenceOfBreedReteriver -->
+    </test> <!-- Test02 -->
+  </suite> <!-- Suite -->
+</testng-results>

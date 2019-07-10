@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test01(failed)">
+    <classes>
+      <class name="Test.TC001_Get_ListOfAllBreeds">
+        <methods>
+          <include name="getBreedList"/>
+          <include name="CheckResposeBody"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Test.TC001_Get_ListOfAllBreeds -->
+    </classes>
+  </test> <!-- Test01(failed) -->
+</suite> <!-- Failed suite [Suite] -->
